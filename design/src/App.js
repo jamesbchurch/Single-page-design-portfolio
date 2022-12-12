@@ -1,5 +1,5 @@
 import "./App.css";
-import HeroSlice from "./components/HeroSlice";
+import HeroSlice from "./components/HeroSlice/HeroSlice";
 
 function App() {
   return (

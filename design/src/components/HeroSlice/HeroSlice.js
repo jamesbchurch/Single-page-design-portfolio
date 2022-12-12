@@ -3,7 +3,13 @@ import styles from "./HeroSlice.module.css";
 export default function HeroSlice() {
   return (
     <div className={styles.flexContainer}>
-      <img src="image-amy.webp" alt="amy" width="350" height="350" />
+      <img
+        className={styles.img}
+        src="image-amy.webp"
+        alt="amy"
+        width="350"
+        height="350"
+      />
       <span className={styles.ctaFlex}>
         <h2 className={styles.headline}>
           I’m Amy, and I’d love to work on your next project
