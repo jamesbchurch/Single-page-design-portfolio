@@ -60,11 +60,12 @@ margin: auto;
     
     .img{
         margin: 0;
+        margin-left: -10rem;
     }
 
     .flexContainer{
         flex-flow: row;
-        gap: 2.5rem;
+        gap: 4.5rem;
     }
     
     .ctaFlex{
@@ -109,6 +110,10 @@ margin: auto;
     
     }
     
+    .img{
+        margin: 0;
+      
+    }
     
     .headline{
         font-size: 2.5rem;
