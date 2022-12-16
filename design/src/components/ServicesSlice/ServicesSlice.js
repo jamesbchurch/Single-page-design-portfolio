@@ -1,4 +1,4 @@
-import styles from "./ServicesSlice.module.css";
+import styles from './ServicesSlice.module.css';
 
 export default function ServicesSlice() {
   return (
@@ -12,12 +12,12 @@ export default function ServicesSlice() {
         <h2 className={styles.graphicsText}>Graphic Design</h2>
       </li>
       <li className={styles.ui}>
-        <img src="pattern-ui-ux.svg" alt="ui" />
-        <h2>UI/UX</h2>
+        <img className={styles.uiImg} src="pattern-ui-ux.svg" alt="ui" />
+        <h2 className={styles.uiText}>UI/UX</h2>
       </li>
       <li className={styles.apps}>
-        <img src="pattern-apps.svg" alt="apps" />
-        <h2>Apps</h2>
+        <img className={styles.appsImg} src="pattern-apps.svg" alt="apps" />
+        <h2 className={styles.appsText}>Apps</h2>
       </li>
       <li className={styles.spanRow}>
         <img src="pattern-illustrations.svg" alt="illustrations" />
