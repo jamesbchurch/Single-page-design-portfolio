@@ -13,17 +13,18 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   display: grid;
+  align-items: center;
 }
 
 .graphicsImg {
-  grid-column: 3/4;
+  grid-column: 3/5;
   grid-row: 1/3;
   padding: 1.25rem;
 }
 
 .graphicsText {
   grid-row: 3/4;
-  grid-column: 1/3;
+  grid-column: 1/4;
 }
 
 .ui {
