@@ -5,9 +5,12 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   list-style-type: none;
   gap: 1.5rem;
+  color: white;
 }
 
 .graphics {
+  padding: 0;
+  margin: 0;
   grid-column: 1/6;
   grid-row: 1/3;
   background-color: #755cde;
@@ -32,6 +35,8 @@
 }
 
 .ui {
+  padding: 0;
+  margin: 0;
   grid-column: 1/3;
   padding: 1rem;
   background-color: #f6a560;
@@ -52,6 +57,8 @@
 }
 
 .apps {
+  padding: 0;
+  margin: 0;
   grid-column: 3/6;
   padding: 1rem;
   background-color: #f39e9e;
@@ -73,6 +80,24 @@
 }
 
 .spanRow {
-  grid-column: 1/3;
+  padding: 0;
+  margin: 0;
+  grid-column: 1/5;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #EB7565;
+  margin: auto;
+  max-width: 90vw;
+  border-radius: 8px;
+}
+.spanRowImg{
+grid-column: 3/4;
+
+
+}
+
+.spanRowText{
+grid-column: 1/3;
+grid-row: 2/2;
 }
