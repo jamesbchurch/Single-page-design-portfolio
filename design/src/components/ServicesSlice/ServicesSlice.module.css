@@ -14,8 +14,8 @@
 .graphics {
   padding: 0;
   margin: 0;
-  grid-column: 1/6;
-  grid-row: 1/3;
+  grid-column: span 4;
+  grid-row: span 3;
   background-color: #755cde;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -44,13 +44,13 @@
 .ui {
   padding: 0;
   margin: 0;
-  grid-column: 1/3;
+  grid-column: span 2;
   padding: 1rem;
   background-color: #f6a560;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  margin: auto;
+
   max-width: 90vw;
   border-radius: 8px;
 }
@@ -69,13 +69,13 @@
 .apps {
   padding: 0;
   margin: 0;
-  grid-column: 3/6;
+  grid-column: span 2;
   padding: 1rem;
   background-color: #f39e9e;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  margin: auto;
+  
   max-width: 90vw;
   border-radius: 8px;
   
@@ -99,7 +99,7 @@
   padding: 0;
   max-height: 170px;
   margin: 0;
-  grid-column: 1/5;
+  grid-column: span 4;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -129,7 +129,7 @@ display: flex;
   max-height: 170px;
   padding: 0;
   margin: 0;
-  grid-column: 1/5;
+  grid-column: span 4;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -159,7 +159,7 @@ display: flex;
   max-height: 170px;
   padding: 0;
   margin: 0;
-  grid-column: 1/5;
+  grid-column: span 4;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
