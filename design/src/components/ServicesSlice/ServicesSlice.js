@@ -19,29 +19,29 @@ export default function ServicesSlice() {
         <img className={styles.appsImg} src="pattern-apps.svg" alt="apps" />
         <h2 className={styles.appsText}>Apps</h2>
       </li>
-      <li className={styles.spanRow}>
+      <li className={styles.ill}>
         <img
-          className={styles.spanRowImg}
+          className={styles.illImg}
           src="pattern-illustrations.svg"
           alt="illustrations"
         />
-        <h2 className={styles.spanRowText}>Illustrations</h2>
+        <h2 className={styles.illText}>Illustrations</h2>
       </li>
-      <li className={styles.spanRow}>
+      <li className={styles.photo}>
         <img
-          className={styles.spanRowImg}
+          className={styles.photoImg}
           src="pattern-photography.svg"
           alt="photos"
         />
-        <h2 className={styles.spanRowText}>Photography</h2>
+        <h2 className={styles.photoText}>Photography</h2>
       </li>
-      <li className={styles.spanRow}>
+      <li className={styles.motion}>
         <img
-          className={styles.spanRowImg}
+          className={styles.motionImg}
           src="pattern-motion-graphics.svg"
           alt="motion"
         />
-        <h2 className={styles.spanRowText}>Motion Graphics</h2>
+        <h2 className={styles.motionText}>Motion Graphics</h2>
       </li>
     </ul>
   );
