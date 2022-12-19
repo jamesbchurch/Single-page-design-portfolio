@@ -7,6 +7,7 @@
   gap: 1.5rem;
   color: white;
   font-size: 1rem;
+  padding: 1rem;
   
 }
 
@@ -181,4 +182,164 @@ display: flex;
   padding-bottom: 1rem;
   padding-left: 1rem;
   display: flex;
+}
+
+
+@media (min-width: 768px) {
+  .gridContainer {
+    margin: 0;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+
+   
+  }
+
+  .graphics {
+    grid-column: span 2;
+    grid-row: span 2;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+    margin: 0;
+   
+
+  
+  }
+  
+  .graphicsImg {
+    grid-column: 3/5;
+    grid-row: 1/3;
+    padding: 1.25rem;
+  }
+  
+  .graphicsText {
+    grid-row: 3/4;
+    grid-column: 1/4;
+    align-self: end;
+    padding-left: 1rem;
+    display: flex;
+  }
+  
+  .ui {
+    grid-column: span 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0;
+  }
+  
+  .uiImg {
+   grid-column: 2/4;
+    padding: 0.5rem 0 0 0.5rem;
+  }
+  .uiText {
+    grid-column: 1/3;
+    display: flex;
+    align-self: end;
+    margin: 0;
+  }
+  
+  .apps {
+  
+    grid-column: span 1;
+    padding: 1rem;
+   margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    
+  }
+  
+  .appsImg {
+    grid-column: 2/4;
+    padding: 0.5rem 0 0 0.5rem;
+  }
+  
+  .appsText {
+    grid-column: 1/3;
+    display: flex;
+    align-self: end;
+    margin: 0;
+  }
+  
+  
+  
+  .ill{
+    
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #EB7565;
+    margin: 0;
+  
+  }
+  
+  .illImg{
+    grid-column: 3/4;
+    padding: 1rem;
+  }
+  
+  .illText{
+  grid-row: 2/2;
+  margin: 0;
+  align-self: end;
+  padding-bottom: 1rem;
+  
+  padding-left: 1rem;
+  display: flex;
+  
+  }
+  
+  .photo{
+   
+    
+    margin: 0;
+    grid-column: span 4;
+    max-width: none;
+  
+  }
+  
+  .photoImg{
+    grid-column: 2/5;
+    padding: 1rem 1rem 1rem 0rem;
+  }
+  
+  .photoText{
+    grid-column: 1/2;
+    grid-row: 2/2;
+    padding-left: 0.5rem;
+    margin: 0;
+    align-self: end;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    display: flex;
+  }
+  
+  .motion{
+    
+    padding: 0;
+    margin: 0;
+    grid-column: span 4;
+    max-width: none;
+    
+  }
+  .motionImg{
+    grid-column: 3/4;
+    padding: 1rem;
+  }
+  
+  .motionText{
+    grid-column: 1/4;
+    grid-row: 2/2;
+    padding-left: 0.25rem;
+    margin: 0;
+    align-self: end;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    display: flex;
+  }
+  
+  
 }
