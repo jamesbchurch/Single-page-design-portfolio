@@ -10,7 +10,11 @@ export default function ContactSlice() {
         designed everything from brand illustrations to complete mobile apps.
         I’m also handy with a camera!
       </p>
-      <Button text={"Free Consultation"} colour={"#eb7565"} />
+      <Button
+        text={"Free Consultation"}
+        colour={"#eb7565"}
+        hoverColour={"#f6a560"}
+      />
     </div>
   );
 }
