@@ -1,0 +1,39 @@
+.container{
+    color: white;
+    background-color: black;
+    max-width: 85vw;
+    padding: 3.5rem 3rem;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.title{
+font-size: 2rem;
+}
+
+.content{
+    padding-bottom: 1rem;
+}
+
+
+
+@media (min-width: 768px) {}
+.description{
+    max-width: 500px;
+    margin: 0 auto
+}
+@media (min-width:1440px) {
+    .container{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        max-width: 1110px;
+       
+    }
+    
+    .content{
+        text-align: left;
+    }
+}

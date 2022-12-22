@@ -3,6 +3,7 @@
     flex-flow: column;
     justify-content: center;
     gap: 1rem;
+    padding: 1rem 0rem;
 }
 
 .img{
