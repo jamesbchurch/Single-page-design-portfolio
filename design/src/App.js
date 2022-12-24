@@ -1,4 +1,5 @@
 import "./App.css";
+import CarouselSlice from "./components/CarouselSlice/CarouselSlice";
 import ContactSlice from "./components/ContactSlice/ContactSlice";
 import HeroSlice from "./components/HeroSlice/HeroSlice";
 import NavSlice from "./components/NavSlice/NavSlice";
@@ -10,6 +11,7 @@ function App() {
       <NavSlice />
       <ServicesSlice />
       <HeroSlice />
+      <CarouselSlice />
       <ContactSlice />
     </div>
   );
