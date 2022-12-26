@@ -1,5 +1,5 @@
 .gridContainer {
-  margin: 0;
+
   padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -8,6 +8,8 @@
   color: white;
   font-size: 1rem;
   padding: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
   
 }
 
@@ -177,7 +179,7 @@ display: flex;
 
 @media (min-width: 768px) {
   .gridContainer {
-    margin: 0;
+    
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr 1fr;
 
@@ -334,7 +336,7 @@ display: flex;
   
   @media (min-width:1440px) {
     .gridContainer {
-      margin: 0;
+      
       grid-template-columns: repeat(6, 1fr);
       grid-template-rows: 1fr 1fr;
   
